@@ -6,15 +6,15 @@ class Animal {
   Animal(this._name, this._age, this._weight);
 
   setName(name) {
-    this._name = name;
+    _name = name;
   }
 
   setAge(age) {
-    this._age = age;
+    _age = age;
   }
 
   setWeight(weight) {
-    this._weight = weight;
+    _weight = weight;
   }
 
   String getName() => _name;
